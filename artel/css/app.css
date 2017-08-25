@@ -1663,7 +1663,7 @@ body {
     font-size: 24px;
     font-weight: 300;
     line-height: 29px;
-    background-image: url(/img/check.png);
+    background-image: url(../img/check.png);
     background-repeat: no-repeat;
     background-position: left center; }
     @media only screen and (max-width: 1080px) {
