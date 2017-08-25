@@ -1,5 +1,5 @@
  <?php
-$to = 'chernyh.mihail@gmail.com','realizator-m@mail.ru';
+$to = 'chernyh.mihail@gmail.com';
 
 if ( isset( $_POST['sendMail'] ) ) {
 	$name	= substr( $_POST['name'], 0, 64 );
@@ -35,7 +35,7 @@ if($_FILES)
 // Вспомогательная функция для отправки почтового сообщения с вложением
 function send_mail($to, $body, $email, $filename)
 {
-	$subject = 'Артель - Получите расчёт стоимости';
+	$subject = 'Артель - сайт на GitHub';
 	$boundary = "--".md5(uniqid(time())); // генерируем разделитель
 	$headers = "From: ".$email."\r\n";
 	$headers .= "MIME-Version: 1.0\r\n";
