@@ -1303,7 +1303,7 @@ body {
 .plus .parallax {
   display: block;
   position: relative;
-  background-image: url(/img/plus-1.jpg);
+  background-image: url(img/plus-1.jpg);
   background-size: cover; }
   .plus .parallax:before {
     content: '';
